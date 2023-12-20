@@ -44,23 +44,11 @@ Its an example on how to implement Feedforward Neural networks with Keras and Te
 
 ## Saving and using the model
 
-<p align="left">
-  Put these commands after running the complete interactive python code
-</p>
+keras_model_path='C:\\Users\\admin'
 
-<p align="left">
-  <button onclick="copyToClipboard('keras_model_path='C:\\Users\\admin'
-                                    model.save(keras_model_path)')">Copy</button>
-</p>
 
-<script>
-  function copyToClipboard(text) {
-    var tempInput = document.createElement('input');
-    tempInput.value = text;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempInput);
-    alert('Text copied to clipboard!');
-  }
-</script>
+model.save(keras_model_path)
+
+
+
+restored_keras_model = tf.keras.models.load_model(keras_model_path)
