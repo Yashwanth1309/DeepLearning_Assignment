@@ -4,7 +4,7 @@ Submitted by -
 - Yashwanth S Gowda
 * 4NI20IS126
 + VII sem ISE 'B' sec
-Topic - Feed-Forward Networks
+- Topic - Feed-Forward Networks
 
 ## Introduction
 
@@ -40,3 +40,11 @@ Feedforward networks are versatile and have been successfully applied to various
 
 ## This Repository
 
+Its an example on how to implement Feedforward Neural networks with Keras and Tensorflow on MNIST dataset. Everything about dataset, model and its working is mentioned in the comments. We are intending to create a model that can predict the number on the handwritten image. The activation function used here is ReLU. After training the model the evaluation of this came out about 95.2% which is pretty good. 
+
+## Saving and using the model
+
+keras_model_path='C:\\Users\\admin'
+model.save(keras_model_path)
+
+restored_keras_model = tf.keras.models.load_model(keras_model_path)
