@@ -14,9 +14,9 @@ Here are the key components and characteristics of feedforward networks:
 
 Layers:-
 
--Input Layer: The first layer of the network, where the input data is introduced.
--Hidden Layers: Intermediate layers between the input and output layers. Each layer consists of nodes (neurons), and the term "hidden" refers to the fact that these layers do not directly interact with the external environment or provide the final output.
--Output Layer: The final layer that produces the network's output.
+- Input Layer: The first layer of the network, where the input data is introduced.
+- Hidden Layers: Intermediate layers between the input and output layers. Each layer consists of nodes (neurons), and the term "hidden" refers to the fact that these layers do not directly interact with the external environment or provide the final output.
+- Output Layer: The final layer that produces the network's output.
 
 1. Neurons (Nodes):-
 Each node in the network is a computational unit that processes information.
@@ -44,11 +44,10 @@ Its an example on how to implement Feedforward Neural networks with Keras and Te
 
 ## Saving and using the model
 
+```bash
 keras_model_path='C:\\Users\\admin'
-
-
 model.save(keras_model_path)
-
-
-
+```
+```bash
 restored_keras_model = tf.keras.models.load_model(keras_model_path)
+```
