@@ -1,9 +1,9 @@
 # DeepLearning_Assignment
 
 Submitted by -
-    -Yashwanth S Gowda
-    *4NI20IS126
-    +VII sem ISE 'B' sec
+- Yashwanth S Gowda
+* 4NI20IS126
++ VII sem ISE 'B' sec
 Topic - Feed-Forward Networks
 
 ## Introduction
