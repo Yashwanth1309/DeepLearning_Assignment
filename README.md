@@ -1,9 +1,9 @@
 # DeepLearning_Assignment
 
 Submitted by -
-    Yashwanth S Gowda
-    4NI20IS126
-    VII sem ISE 'B' sec
+    -Yashwanth S Gowda
+    -4NI20IS126
+    -VII sem ISE 'B' sec
 Topic - Feed-Forward Networks
 
 ## Introduction
@@ -14,26 +14,29 @@ Here are the key components and characteristics of feedforward networks:
 
 Layers:-
 
-Input Layer: The first layer of the network, where the input data is introduced.
-Hidden Layers: Intermediate layers between the input and output layers. Each layer consists of nodes (neurons), and the term "hidden" refers to the fact that these layers do not directly interact with the external environment or provide the final output.
-Output Layer: The final layer that produces the network's output.
+-Input Layer: The first layer of the network, where the input data is introduced.
+-Hidden Layers: Intermediate layers between the input and output layers. Each layer consists of nodes (neurons), and the term "hidden" refers to the fact that these layers do not directly interact with the external environment or provide the final output.
+-Output Layer: The final layer that produces the network's output.
 
-Neurons (Nodes):-
+1. Neurons (Nodes):-
 Each node in the network is a computational unit that processes information.
 Nodes in the input layer represent features of the input data.
 Nodes in hidden layers perform computations based on weighted inputs from the previous layer and apply activation functions.
 Nodes in the output layer produce the final output of the network.
 
-Connections (Weights):-
+2. Connections (Weights):-
 Each connection between nodes is associated with a weight, representing the strength of the connection.
 Weights are adjusted during the training process to enable the network to learn from data.
 
-Activation Functions:-
+3. Activation Functions:-
 Neurons in the hidden layers typically apply activation functions to introduce non-linearities into the network, enabling it to learn complex relationships in the data.
 Common activation functions include sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU).
 
-Training:-
+4. Training:-
 Feedforward networks are trained using supervised learning, where they learn to map input data to desired output labels.
 During training, the network adjusts its weights through backpropagation, minimizing the difference between predicted and actual outputs (loss or error).
 
 Feedforward networks are versatile and have been successfully applied to various tasks, including pattern recognition, image classification, natural language processing, and regression problems. While they lack feedback loops and dynamic memory, which are present in recurrent neural networks, their simplicity and effectiveness make them a fundamental building block in the field of artificial neural networks.
+
+## This Repository
+
