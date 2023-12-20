@@ -38,13 +38,29 @@ During training, the network adjusts its weights through backpropagation, minimi
 
 Feedforward networks are versatile and have been successfully applied to various tasks, including pattern recognition, image classification, natural language processing, and regression problems. While they lack feedback loops and dynamic memory, which are present in recurrent neural networks, their simplicity and effectiveness make them a fundamental building block in the field of artificial neural networks.
 
-## This Repository
+## ASSIGNMENT
 
 Its an example on how to implement Feedforward Neural networks with Keras and Tensorflow on MNIST dataset. Everything about dataset, model and its working is mentioned in the comments. We are intending to create a model that can predict the number on the handwritten image. The activation function used here is ReLU. After training the model the evaluation of this came out about 95.2% which is pretty good. 
 
 ## Saving and using the model
 
-keras_model_path='C:\\Users\\admin'
-model.save(keras_model_path)
+<p align="left">
+  Put these commands after running the complete interactive python code
+</p>
 
-restored_keras_model = tf.keras.models.load_model(keras_model_path)
+<p align="left">
+  <button onclick="copyToClipboard('keras_model_path='C:\\Users\\admin'
+                                    model.save(keras_model_path)')">Copy</button>
+</p>
+
+<script>
+  function copyToClipboard(text) {
+    var tempInput = document.createElement('input');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    alert('Text copied to clipboard!');
+  }
+</script>
