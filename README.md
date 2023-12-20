@@ -2,8 +2,8 @@
 
 Submitted by -
     -Yashwanth S Gowda
-    -4NI20IS126
-    -VII sem ISE 'B' sec
+    *4NI20IS126
+    +VII sem ISE 'B' sec
 Topic - Feed-Forward Networks
 
 ## Introduction
